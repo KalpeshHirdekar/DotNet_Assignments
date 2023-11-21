@@ -1,0 +1,121 @@
+Q1>Create class calculator with two method Add and product. Create object and call method
+
+namespace Con
+{
+    internal class calculator
+    {
+         public int add(int a,int b)
+        {
+            return a + b;
+        }
+        public int product(int a,int b)
+        {
+            return a * b;
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Con;
+
+namespace ConsoleApp1
+{
+    //internal means the defalut
+    internal class Program
+    {
+        public static void show(){
+                   }
+        static void Main(string[] args)
+        {
+            calculator c = new calculator();
+            int res1=c.add(10, 20);
+            int res2=c.product(10, 20);
+            Console.WriteLine(res1 + " " + res2);
+            Console.ReadLine();
+           
+        }
+    }
+}
+
+-----------------------------------------------------------------------------------------------------
+Q.2>Create class library with method fact() which will return factorial of a number. Use it in console application
+//class libary
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace fact
+{
+    public class Myclass
+    {
+        public int Fact(int n)
+        {
+            int fact = 1;
+            for(int i=1;i <= n; i++)
+            {
+                fact = fact * i;
+            }
+            return fact;
+
+        }
+    }
+}
+//console app
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using fact;
+
+namespace factClient
+{
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Myclass ref1 = new Myclass();
+            int res=ref1.Fact(5);
+            Console.WriteLine(res);
+
+        }
+    }
+}
+
+-------------------------------------------------------------------------------------------
+Q-3>Create a class student in namespace DAC and in namespace DBDA write method add in both class. In entry point call both method
+
+namespace DBDA
+{
+    internal class student
+    {
+        public void main()
+        {
+            Console.WriteLine("DBDA method");
+        }
+    }
+}
+namespace DAC
+{
+    internal class student
+    {
+        public void main()
+        {
+            Console.WriteLine("DAC method");
+        }
+        static void Main(string[] args)
+        {
+            student s=new student();
+            s.main();
+            DBDA.student s1= new DBDA.student();
+            s1.main();
+        }
+    }
+}
