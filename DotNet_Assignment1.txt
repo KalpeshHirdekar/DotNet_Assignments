@@ -1,4 +1,5 @@
-Q1>Create class calculator with two method Add and product. Create object and call method
+
+Q1>Create a class calculator with two methods Add and product. Create object and call method
 
 namespace Con
 {
