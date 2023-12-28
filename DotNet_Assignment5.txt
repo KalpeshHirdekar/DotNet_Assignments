@@ -1,4 +1,5 @@
-Q>{Create 2 string variables and accept data from the user.
+Q.1)
+{Create 2 string variables and accept data from the user.
 Using equals and == check data entered by the user is the same or not.
 Print gethashcode for both string .variable
 Also, use referenceEquals and observe output.
