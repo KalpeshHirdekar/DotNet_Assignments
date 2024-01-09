@@ -74,7 +74,8 @@ namespace Assigment_Day3
 }
 
 ------------------------------------------------------------------------------------------------
-2>namespace Assigment1_Day3
+Q.2)
+namespace Assigment1_Day3
 {
     internal class Account
     {
