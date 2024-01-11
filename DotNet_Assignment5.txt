@@ -27,7 +27,7 @@ namespace StringDemo
     }
 }
 ----------------------------------------------------------------------
-Q>/*Write a method which will return sum of digit and using out variable let it send count of digit also.
+Q.2) *Write a method that will return the sum of digits and using out variable let it send the count of digits also.
 Eg. input 123  return(6) in out variable (3)*/
 
 namespace CallByRef
