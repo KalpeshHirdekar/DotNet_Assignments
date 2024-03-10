@@ -1,6 +1,6 @@
-Q1>Accept two number from user and do the sum of it
-Solve above code using Parse(), ToSingle() and TryPrase() method.
-Also observe exception if you do not enter valid data
+//Q1>Accept two number from user and do the sum of it
+//Solve above code using Parse(), ToSingle() and TryPrase() method.
+//Also observe exception if you do not enter valid data
 
 using Parse()
 namespace StringTONumber
